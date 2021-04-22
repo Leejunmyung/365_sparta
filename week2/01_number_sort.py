@@ -1,8 +1,9 @@
-t = int(input("테스트 케이스: "))
+import sys
+t = int(sys.stdin.readline())
 result = []
 
 for i in range(t):
-    x = int(input("숫자 입력: "))
+    x = int(sys.stdin.readline())
     result.append(x)
     result.sort()
 
